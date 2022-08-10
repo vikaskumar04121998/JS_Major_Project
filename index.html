@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file Included -->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
+    <!-- JavaScript file included -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="Fromconv">
+            <form>
+                <label id ="text" for="From">From</label><br/>
+                <select name="From" id="Fromconverter">
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Binary">Binary</option>
+                </select><br>
+                <input type="text" name="from" id="convfrom">
+                <br>
+            </form>
+        </div>
+        <div id="Toconv">
+            <form >
+                <label id ="text" for="to">To</label><br/>
+                <select name="to" id="Toconverter">
+                    <option value="Binary">Binary</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                    <option value="Octal">Octal</option>
+                </select>
+                <br>
+                <input type="text" name="to" id="convto">
+                <br>
+            </form>
+        </div>
+    </div><br>
+    <div id="btn">
+        <button type="submit" id="b1" onclick="convert()">Convert</button>
+        <button type="submit" id="b2" onclick="swapit()" >Swap</button>
+    </div>
+</body>

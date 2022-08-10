@@ -1,0 +1,64 @@
+body{
+    background-color:peachpuff;
+}
+.container{
+    text-align: center;
+    display: grid;
+    box-sizing: content-box;
+    grid-template-columns: 40%;
+    margin-top: 10%;
+    background-color: rgb(231, 189, 98);
+    border-radius: 10px;
+    padding: 40px;
+}
+#text{
+    font-size: 30px;
+}
+#Fromconverter{
+    margin: 10px;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#Toconverter{
+    margin: 10px;
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#convfrom{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#convto{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#btn{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(157, 100, 175, 0.589);
+}
+
+#b1,#b2{
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+	.container {
+        grid-template-rows: 3fr;
+		grid-template-columns: 1fr 1fr;
+	}
+}
