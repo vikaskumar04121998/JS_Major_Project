@@ -1,10 +1,9 @@
 # JS_Major_Project
 number converter
 
-decimal to binary, hexdecimal, octal &
-binary to decimal, hexdecimal, octal &
-hexdecimal to decimal, binary, octal &
-octal to decimal, binary, hexdecimal.
+decimal to binary, hexadecimal, octal &
+binary to decimal, hexadecimal, octal &
+hexadecimal to decimal, binary, octal &
+octal to decimal, binary, hexadecimal.
 
-in this project there are two dropbox for type selection which one user want to choose binary, decimal, hexdecimal, octal 
-then there are two textarea one is for input and anther one is for output. with two button one is for convert and anther one is for swap the values
+in this project there is two dropbox for type selection which one user want to choose binary, decimal, hexadecimal, or octal then there are two text area one is for input and another one is for output. with two buttons one is for converting and another one is for swapping the values.
